@@ -10,7 +10,7 @@ var person = new PersonModel
     Altura = 6,
     Id = 1,
     Edad = 24,
-    Nombre = "Vaxi Drez"
+    Nombre = "Juan Carlos"
 };
 
 var result = EvaluateDriverLicenseByEdad(edadParaEvaluar, person) ? $"{person.Nombre} obtuvo la licencia" : "Licencia negada";

@@ -1,10 +1,7 @@
-﻿
-
-
-using SpecificationDriverLicense;
+﻿using SpecificationDriverLicense;
 using System.Text.Json;
 
-int edadParaEvaluar = 27;
+int edadParaEvaluar = 15;
 var person = new PersonModel
 {
     Altura = 6,
